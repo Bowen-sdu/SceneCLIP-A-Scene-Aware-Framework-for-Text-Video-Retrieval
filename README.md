@@ -7,7 +7,14 @@ Our model was trained and evaluated using the following package dependencies:
 * Python 3.7.12
 
 ## Datasets
-Our model was trained on MSR-VTT and MSVD datasets. To download the datasets, refer to this [repository](https://github.com/ArrowLuo/CLIP4Clip).
+Our model was trained on MSR-VTT and MSVD datasets. Please download the datasets utilizing following commands .
+```
+# MSR-VTT
+wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msrvtt_data.zip
+
+# MSVD
+wget https://github.com/ArrowLuo/CLIP4Clip/releases/download/v0.0/msvd_data.zip
+```
 
 ## Training
 We utilize 1 NVIDIA RTX 3090 24GB GPU for training. You can directly train with following commands:
