@@ -37,7 +37,6 @@ class Config(ABC):
         self.transformer_dropout = args.transformer_dropout
 
         self.num_workers = args.num_workers
-        self.seed = args.seed
         self.no_tensorboard = args.no_tensorboard
         self.tb_log_dir = args.tb_log_dir
 
