@@ -20,13 +20,6 @@ def main():
     else:
         writer = None
 
-    if config.seed >= 0:
-        torch.manual_seed(config.seed)
-        np.random.seed(config.seed)
-        torch.cuda.manual_seed_all(config.seed)
-        random.seed(config.seed)
-        torch.backends.cudnn.deterministic = True
-        torch.backends.cudnn.benchmark = False
 
     tokenizer = SimpleTokenizer()
 
